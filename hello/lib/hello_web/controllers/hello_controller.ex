@@ -12,7 +12,7 @@ defmodule HelloWeb.HelloController do
   end
 
   def bibble(conn, _) do
-    IO.puts "bobble\n"
+    IO.puts "my terminal message from a plug in HelloController\n"
 
     conn
   end
